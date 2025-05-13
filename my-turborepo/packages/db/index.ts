@@ -1,1 +1,3 @@
-console.log("Hello via Bun!");
+import { PrismaClient } from "./src/generated/client";
+
+export const prismaClient=new PrismaClient;
