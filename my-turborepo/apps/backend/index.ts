@@ -36,7 +36,7 @@ app.post("/user", (req, res) => {
       res.status(201).json(user);
     })
     .catch(err => {
-      console.log(" user creation error")
+      console.log(err)
       res.status(500).json({ error: err.message });
     });
     
