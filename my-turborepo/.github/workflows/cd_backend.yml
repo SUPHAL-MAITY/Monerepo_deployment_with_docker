@@ -19,4 +19,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.backend
           push: true
-          tags: suphal/todo-app-backend:${github.sha}
+          tags: suphal032/todo-app-backend:${github.sha}

@@ -6,6 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/users", (req, res) => {
+  console.log("this is user api")
   prismaClient.user.findMany()
     .then(users => {
       res.json({users});
