@@ -20,4 +20,4 @@ jobs:
           context: .
           file: ./my-turborepo/docker/Dockerfile.backend
           push: true
-          tags: suphal032/todo-app-backend:${github.sha}
+          tags: suphal032/todo-app-backend:${{ github.sha }}
